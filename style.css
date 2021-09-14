@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+/* ##_NAV_## */
+
+.mynav {
+    background-color: #ffffff;
+    height: 5vh;
+    box-shadow: 0 6px 6px -6px #e6e6ec;
+    width: 100%;
+}
+
+.nav-title {    
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.main-left-container {
+    background-color: #282849;
+    height: 100vh;
+    width: 20vw;
+}
+
+.main-right-container {
+    background-color: #f2f2f7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.nav-btn-3 {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* DASHBOARD */
+
+.dash-title-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-title {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.dash-part1-title-container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash-part1-title {
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+.dash-subtitle-container {
+    width: 100%;
+    text-align: left;
+    margin: 20px;
+}
+
+.dash-part1-subtitle {
+    color: #6f6f91;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.dash-menu-container {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.UI-box-menu {
+    color: #6f6f91;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+}.UI-box-menu:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+/* ##_DASH_HOME_## */
+
+.dash-home-container {
+}
+
+.dash-h-c {
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.UI-home-dash-box {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #dfdfe7;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.dash-h-c2 {
+    height: 57vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

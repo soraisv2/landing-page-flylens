@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+/* INTRO PAGE */
+
+.page-intro {
+    height: 80vh;
+    width: 100%;
+}
+
+.nav-container { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-btn {
+    padding: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #999999;
+    font-weight: bold;
+    
+}.nav-btn:hover {
+    transition-duration: 0.4s;
+    color: #6bd181;
+    cursor: pointer;
+}
+
+.intro-container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-left-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-right-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    width: 500px;
+    margin-left: 20%;
+}
+
+.intro-title {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+.intro-subtitle {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.intro-img {
+    width: 750px;
+    margin-right: 20%;
+}
+/*  */
+
+.page-second {
+    height: 40vh;
+    background-color: #6bd181;
+}
+
+/*  */
+
+.page-third {
+    height: 100vh;
+    background-color: white;
+}

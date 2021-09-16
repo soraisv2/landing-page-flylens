@@ -12,9 +12,6 @@ body {
     width: 100vw;
 }
 
-
-
-
 /* ##_NAV_## */
 
 .mynav {
@@ -35,6 +32,7 @@ body {
     background-color: #282849;
     height: 100vh;
     width: 20vw;
+    overflow: scroll;
 }
 
 .main-right-container {
@@ -97,7 +95,6 @@ body {
     left: 0;
     text-transform: uppercase;
     font-weight: bold;
-
 }
 
 .dash-menu-container {
@@ -119,6 +116,7 @@ body {
 /* ##_DASH_HOME_## */
 
 .dash-home-container {
+    text-align: left;
 }
 
 .dash-h-c {
@@ -143,4 +141,74 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
+}
+
+.dash-box-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    /* background-color: #f6f6fa; */
+    border-radius: 20px;
+}
+
+.dash-box-title {
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 1px;
+    color: #282849; 
+}
+
+
+
+/* ##_DASH_YOURDRONE_## */
+
+.dash-home-container {
+    text-align: left;
+}
+
+.dash-yd-c {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.UI-home-dash-box {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px #dfdfe7;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.dash-box-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    /* background-color: #f6f6fa; */
+    border-radius: 20px;
+}
+
+.dash-box-title-container-dronelist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f6f6fa; */
+    border-radius: 20px; 
+}
+
+.dash-box-title {
+    font-weight: bold;
+    margin: 20px;
+    letter-spacing: 1px;
+    color: #282849; 
+}
+
+.dronelist-container {
+    width: 100%;
+    height: 87%;
+    overflow: scroll;
 }

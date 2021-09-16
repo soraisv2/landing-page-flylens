@@ -1,119 +1,66 @@
 <!DOCTYPE html>
 <html>
 <header>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="front-end/style/style-index.css">
+    <title>Dr-Healer</title>
 </header>
 <body>
-    <script src="motion.js"></script>
     <head>
 
     </head>
-            <div class="main">
-                <div class="main-left-container">
-                    <div class="dash-title-container">
-                        <span class="dash-title">dr-healer</span>
+    <div class="main">
+        <div class="page-intro">
+            <div class="container-fluid">
+                <div class="row nav-container">
+                    <div class="col-3 nav-btn">
+                        
                     </div>
-                    <div class="dash-part1-title-container">
-                        <span class="dash-part1-title">dashboard</span>
+                    <div class="col-1 nav-btn">
+                    Dr-healer
                     </div>
-                    <div class="dash-subtitle-container"><span class="dash-part1-subtitle">apps</span></div>
-                    <div class="dash-menu-container">   
-                        <div class="UI-box-menu">
-                            Home
-                        </div>
-                        <div class="UI-box-menu">
-                            Your Drone
-                        </div>
-                        <div class="UI-box-menu">
-                            Crops
-                        </div>
-                        <div class="UI-box-menu">
-                            Widget
-                        </div>
-                        <div class="UI-box-menu">
-                            Message
-                        </div>
-                        <div class="UI-box-menu">
-                            Advising
-                        </div>
-                        <div class="UI-box-menu">
-                            shop
-                        </div>
-                        <div class="UI-box-menu">
-                            Profil
-                        </div>
+                    <div class="col-1 nav-btn">
+                        
                     </div>
-                    <div class="dash-subtitle-container"><span class="dash-part1-subtitle">Support</span></div>
-                    <div class="dash-menu-container">   
-                        <div class="UI-box-menu">
-                            contact us
-                        </div>
-                        <div class="UI-box-menu">
-                            Advising
-                        </div>
-                        <div class="UI-box-menu">
-                            Help
-                        </div>
+                    <div class="col-1 nav-btn">
+                        
                     </div>
-
+                    <div class="col-1 nav-btn">
+                        Contact
+                    </div>
+                    <div class="col-1 nav-btn">
+                        <a href="front-end/page/admin.php">admin</a>    
+                    </div>
+                    <div class="col-1 nav-btn">
+                        Log-in
+                    </div>
+                    <div class="col-2 nav-btn">
+                        
+                    </div>
                 </div>
-                <div class="main-right-container">
-                    <div class="container-fluid">
-                        <div class="row mynav">
-                            <div class="col-1">
-                                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="50" height="50">
-                            </div>
-                            <div class="col-3">
-
-                            </div>
-                            <div class="col-4">
-
-                            </div>
-                            <div class="col-2">
-
-                            </div>
-                            <div class="col-2">
-                                <div class="nav-btn-3">
-
-                                </div>
-                            </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-6 intro-left-container">
+                        <div class="intro-text">
+                            <span class="intro-title">Laisser Dr-Healer <span style="color: #6bd181;">observer</span> pour vous</span><br>
+                            <span class="intro-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span><br>
                         </div>
                     </div>
-                    <div class="container-fluid">
-                        <div class="row dash-home-container">
-                            <div class="col-lg-5 dash-h-c">
-                                <div class="UI-home-dash-box">
-
-                                </div>
-                            </div>
-                            <div class="col-lg-7 dash-h-c">
-                                <div class="UI-home-dash-box">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row dash-home-container">
-                            <div class="col-lg-12 dash-h-c2">
-                                <div class="UI-home-dash-box">
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row dash-home-container">
-                            <div class="col-lg-7 dash-h-c">
-                                <div class="UI-home-dash-box">
-
-                                </div>
-                            </div>
-                            <div class="col-lg-5 dash-h-c">
-                                <div class="UI-home-dash-box">
-
-                                </div>
-                            </div>
+                    <div class="col-12 col-lg-6 intro-right-container">
+                        <div class="intro-img">
+                            <img src="ressources/img/city.svg" alt="city.svg">
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="page-second">
+            b
+        </div>
+        <div class="page-third">
+            b
+        </div>
+    </div>
 </body>
 </html>

@@ -27,7 +27,7 @@
                     Analytics
                 </div>
                 <div class="UI-box-menu" onclick="page_switcher(3)">
-                    Your Drone
+                    Your Drones
                 </div>
                 <div class="UI-box-menu" onclick="page_switcher(4)">
                     Crops
@@ -71,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            <div id="PAGE2" class="adm-pages yourdrone-page">
+            <div id="PAGE2" class="adm-pages analytics-page">
                 <div class="container-fluid">
                     <div class="row mynav">
                         <div class="col-1">
@@ -95,14 +95,14 @@
                 </div>
                 <div class="container-fluid">
                     <div class="row dash-home-container">
-                        <div class="col-lg-5 dash-h-c">
+                        <div class="col-lg-3 dash-h-c">
                             <div class="UI-home-dash-box">
                                 <div class="dash-box-title-container">
-                                    <span class="dash-box-title">Hygrométrie</span>
+                                    <span class="dash-box-title">Warning</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-7 dash-h-c">
+                        <div class="col-lg-9 dash-h-c">
                             <div class="UI-home-dash-box">
                                 <div class="dash-box-title-container">
                                     <span class="dash-box-title">L'hydrique</span>
@@ -137,7 +137,7 @@
                     </div>
                 </div>
             </div>
-            <div id="PAGE3" class="adm-pages analytics-page">
+            <div id="PAGE3" class="adm-pages yourdrones-page">
                         <div class="container-fluid">
                             <div class="row mynav">
                                 <div class="col-1">
@@ -167,7 +167,9 @@
                                             <span class="dash-box-title">Liste of drone</span>
                                         </div>
                                         <div class="dronelist-container">
-                                            // importe db list //
+                                            <div class="UI-box-drone-list">
+                                                <span class="drone-id">Drone <span style="color: #6bd181;">#1</span></span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

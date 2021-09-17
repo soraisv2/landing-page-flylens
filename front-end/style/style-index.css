@@ -99,3 +99,21 @@ a {
     height: 100vh;
     background-color: white;
 }
+
+.dronelist-container {
+    height: 100%;
+    width: 100%;
+}
+
+.UI-box-drone-list {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #dbdbdb;
+}
+
+.drone-id {
+    text-align: left;
+    letter-spacing: 1px;
+
+}

@@ -1,7 +1,7 @@
 Poc-Moonshot
 ===
 
-![Image](picutre/home.png)
+![Image](picture/home.png)
 
 ## Info
 

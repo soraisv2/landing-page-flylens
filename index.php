@@ -3,7 +3,8 @@
 <header>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="front-end/style/style-index.css">
-    <title>Dr-Healer</title>
+    <link rel="stylesheet" media="handheld, only screen and (max-device-width: 480px)" type="text/css" href="front-end/style/mobile_index.css" />
+    <title>FlyLens</title>
 </header>
 <body>
     <head>
@@ -11,31 +12,33 @@
     </head>
     <div class="main">
         <div class="page-intro">
-            <div class="container-fluid">
+            <div class="container-fluid to_hide_on_mobile">
                 <div class="row nav-container">
-                    <div class="col-3 nav-btn">
+                    <div class="col-2 nav-btn">
                         
                     </div>
                     <div class="col-1 nav-btn">
-                    Dr-healer
+                        <a href=".">FlyLens</a>
                     </div>
                     <div class="col-1 nav-btn">
                         
-                    </div>
-                    <div class="col-1 nav-btn">
-                        
-                    </div>
-                    <div class="col-1 nav-btn">
-                        Contact
-                    </div>
-                    <div class="col-1 nav-btn">
-                        <a href="front-end/page/admin.php">admin</a>    
-                    </div>
-                    <div class="col-1 nav-btn">
-                        Log-in
                     </div>
                     <div class="col-2 nav-btn">
                         
+                    </div>
+                    <div class="col-1 nav-btn to_hide_on_mobile">
+                        <a href="#_contact">Contact</a>
+                    </div>
+                    <div class="col-1 nav-btn to_hide_on_mobile">
+                        <a href="front-end/page/admin.php"><span style="background-color: #6bd181; color: #ffffff; padding: 4px; border-radius: 5px;">beta</span> admin</a>    
+                    </div>
+                    <div class="col-1 nav-btn to_hide_on_mobile">
+                        Login
+                    </div>
+                    <div class="col-2 nav-btn">
+                        <div class="btn_burger">
+                            ///
+                        </div>
                     </div>
                 </div>
             </div>
@@ -43,8 +46,8 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 intro-left-container">
                         <div class="intro-text">
-                            <span class="intro-title">Laisser Dr-Healer <span style="color: #6bd181;">observer</span> pour vous</span><br>
-                            <span class="intro-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span><br>
+                            <span class="intro-title">Laissez FlyLens <span style="color: #6bd181;">observer</span> pour vous</span><br>
+                            <span class="intro-subtitle">Votre drone intelligent et autonome qui vous fourni en temps reél tout les donnée de santé de vos cultures.</span><br>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 intro-right-container">
@@ -54,12 +57,57 @@
                     </div>
                 </div>
             </div>
+            <div class="btn-discover-container">
+                <a href="#_contact">
+                    <div class="btn_discover">
+                        <span class="">decouvrir</span>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="page-second">
-            b
+        <div class="page-second to_hide_on_mobile">
+            <div class="secondpage-title-container to_hide_on_mobile">
+                <span class="secondpage-title to_hide_on_mobile">Redonnez de la couleur à vos cultures !</span>
+            </div>
         </div>
-        <div class="page-third">
-            b
+        <div id="_contact" class="page-third">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-lg-6 contact-left-container">
+                        <div class="contact-left-c">
+                            <div class="contact-left-title-container">
+                                <span class="contact-left-title">Prenez contact !</span>
+                            </div>
+                            <div class="contact-left-text-container">
+                                <span class="contact-left-text">
+                                    Notre prise de d'information est totalement sécurisé. Nous ne transmetterons jamais aucune information tel que votre email ou votre nom. Cela est simplement transmit au responsable de votre dossier a des fin de personnalisation de retour
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 contact-right-container">
+                        <div class="contact-right-c">
+                            <div class="form_container">
+                                <form action="mailto:flylens-contact@gmail.com" method="post" enctype="text/plain">
+                                    <span class="form-txt">
+                                        Name:
+                                    </span>    
+                                    <input class="form-control nameemail_input" type="text" name="name"><br>
+                                    <span class="form-txt">
+                                        Email:
+                                    </span> 
+                                    <input class="form-control nameemail_input" type="email" name="mail"><br>
+                                    <span class="form-txt">
+                                        Your comment:
+                                    </span> 
+                                    <input class="form-control comment_input" type="text" name="comment"><br><br>
+                                    <input class="btn btn-primary" type="submit" value="Send">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

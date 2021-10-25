@@ -12,111 +12,73 @@ a {
     color: inherit;
 }
 
-.main {
-    height: 100%;
-    width: 100%;
-    background-image: url("https://images4.alphacoders.com/658/thumb-1920-658575.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 /* INTRO PAGE */
 
 .page-intro {
-    height: 100%;
-    width: 100%;
+    height: 65vh;
+    margin-top: -20%;
     background-color: rgb(255, 255, 255);
 }
 
-.nav-container { 
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.nav-btn {
-    padding: 20px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    color: #999999;
-    font-weight: bold;
-    
-}.nav-btn:hover {
-    transition-duration: 0.4s;
-    color: #6bd181;
-    cursor: pointer;
-}
-
-.btn_burger {
+.to_hide_on_mobile {
     display: none;
 }
 
 .intro-container {
-    height: 90%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .intro-left-container {
-    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .intro-text {
-    width: 500px;
-    margin-left: 20%;
+    width: 90%;
+    margin: 0;
 }
 
 .intro-title {
-    font-size: 50px;
+    font-size: 100px;
     color: black;
     font-weight: bold;
 }
 
 .intro-subtitle {
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 100;
 }
 
 .intro-right-container {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro-img {
-    width: 750px;
-    margin: 50px;
+    display: none;
 }
 
 .btn-discover-container {
     width: 100%;
+    margin-top: -30%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .btn_discover {
-    height: 70px;
-    width: 200px;
+    height: 100px;
+    width: 80vw;
     background-color: #6bd181;
     padding: 20px;
     border-radius: 20px;
-    margin: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 2px solid #6bd181;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 10px;
+    font-size: 60px;
 }.btn_discover:hover {
     transition-duration: 0.4s;
     background-color: #ffffff;
@@ -124,32 +86,15 @@ a {
     letter-spacing: 5px;
 }
 
-/*  */
 
-.page-second {
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.secondpage-title-container {
-    font-size: 40px;
-    font-weight: bold;
-    margin: 0;
-}
 
-.secondpage-title {
-    color: #ffffff;
-    background-color: #00000034;
-    padding: 50px;
-    border-radius: 30px;
-}
+
 
 /*  */
 
 .page-third {
-    height: 100vh;
+    height: 100%;
     background-color: #eeeeee;
 }
 
@@ -158,18 +103,17 @@ a {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    padding: 0px 50px;
     background-image: url("https://img2.wallspic.com/originals/7/3/2/1/5/151237-green-crop-dibond-poster-grass_family-1920x1080.jpg");
     background-repeat: no-repeat;
     text-align: center;
-    color: white;
 }
 
 .contact-left-c {
-    height: 300px;
+    margin-top: 140%;
+    height: 45%;
     width: 100%;
     border-radius: 20px;
-    background-color: #80808038;
+    background-color: #80808056;
 }
 .contact-right-c {
     height: 60vh;
@@ -177,12 +121,8 @@ a {
     border-radius: 20px;
 }
 
-.contact-left-title-container {
-    margin: 30px;
-}
-
 .contact-left-title {
-    font-size: 50px;
+    font-size: 100px;
     color: white;
     font-weight: bold;
 }
@@ -194,8 +134,7 @@ a {
 
 .contact-left-text {
     letter-spacing: 1px;
-    color: white;
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .form_container {
@@ -206,32 +145,31 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    padding: 0px 150px;
-}
-
-.contact-right-title {
-    font-size: 10%;
-    color: white;
+    height: 50%;
+    padding: 0px 50px;
 }
 
 .nameemail_input {
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     padding: 10px;
     width: 100%;
+    height: 75px;
+    font-size: 40px;
 }
 
 .comment_input {
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     padding: 10px;
     width: 100%;
+    height: 75px;
+    font-size: 40px;
 }
 
 .form-txt {
     color: #9c9c9c;
-    font-size: 18px;
+    font-size: 50px;
     font-weight: bold;
     margin: 10px;
 }

@@ -212,3 +212,24 @@ body {
     height: 87%;
     overflow: scroll;
 }
+
+/* ##_YOURDRONE_DASH_## */
+
+.dronelist-container {
+    width: 100%;
+}
+
+.UI-box-drone-list {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.drone-id {
+    text-align: left;
+    letter-spacing: 1px;
+}

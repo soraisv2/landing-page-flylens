@@ -136,54 +136,53 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>BeFunky-collage
             <div id="PAGE3" class="adm-pages yourdrones-page">
-                        <div class="container-fluid">
-                            <div class="row mynav">
-                                <div class="col-1">
-                                    <img src="" alt="" width="50" height="50">
-                                </div>
-                                <div class="col-3">
+                <div class="container-fluid">
+                    <div class="row mynav">
+                        <div class="col-1">
+                            <img src="" alt="" width="50" height="50">
+                        </div>
+                        <div class="col-3">
 
-                                </div>
-                                <div class="col-4">
+                        </div>
+                        <div class="col-4">
 
-                                </div>
-                                <div class="col-2">
+                        </div>
+                        <div class="col-2">
 
-                                </div>
-                                <div class="col-2">
-                                    <div class="nav-btn-3">
+                        </div>
+                        <div class="col-2">
+                            <div class="nav-btn-3">
 
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <div class="container-fluid">
-                            <div class="row dash-yourdrone-container">
-                                <div class="col-3 dash-yd-c">
-                                    <div class="UI-home-dash-box">
-                                        <div class="dash-box-title-container-dronelist">
-                                            <span class="dash-box-title">Liste of drone</span>
-                                        </div>
-                                        <div class="dronelist-container">
-                                            <div class="UI-box-drone-list">
-                                                <span class="drone-id">Drone <span style="color: #6bd181;">#1</span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-9 dash-yd-c">
-                                    <div class="UI-home-dash-box">
-                                        <div class="dash-box-title-container">
-                                            <span class="dash-box-title">Activity</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-            
                     </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row dash-yourdrone-container">
+                        <div class="col-3 dash-yd-c">
+                            <div class="UI-home-dash-box">
+                                <div class="dash-box-title-container-dronelist">
+                                    <span class="dash-box-title">Liste of drone</span>
+                                </div>
+                                <div class="dronelist-container">
+                                    <div class="UI-box-drone-list">
+                                        <span class="drone-id">Drone <span style="color: #6bd181;">#1</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-9 dash-yd-c">
+                            <div class="UI-home-dash-box">
+                                <div class="dash-box-title-container">
+                                    <span class="dash-box-title">Activity</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

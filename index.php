@@ -23,17 +23,20 @@
                     <div class="col-1 nav-btn">
                         
                     </div>
-                    <div class="col-2 nav-btn">
-                        
-                    </div>
                     <div class="col-1 nav-btn to_hide_on_mobile">
                         <a href="#_contact">Contact</a>
                     </div>
                     <div class="col-1 nav-btn to_hide_on_mobile">
-                        <a href="front-end/page/admin.php"><span style="background-color: #6bd181; color: #ffffff; padding: 4px; border-radius: 5px;">beta</span> admin</a>    
+                        <a href="front-end/page/admin.php"><span style="background-color: #3162cc; color: #ffffff; padding: 4px; border-radius: 5px;">beta</span> admin</a>    
                     </div>
                     <div class="col-1 nav-btn to_hide_on_mobile">
-                        Login
+                        doc
+                    </div>
+                    <div class="col-1 nav-btn">
+                        
+                    </div>
+                    <div class="col-1 nav-btn">
+                        <a href="#_contact">Login</a>
                     </div>
                     <div class="col-2 nav-btn">
                         <div class="btn_burger">
@@ -48,6 +51,24 @@
                         <div class="intro-text">
                             <span class="intro-title">Laissez FlyLens <span style="color: #6bd181;">observer</span> pour vous</span><br>
                             <span class="intro-subtitle">Votre drone intelligent et autonome qui vous fourni en temps reél tout les donnée de santé de vos cultures.</span><br>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a href="#">
+                                            <div class="intro-btn betatest-btn">
+                                                <span>Beta test</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="#">
+                                            <div class="intro-btn contact-btn">
+                                                <span>contactez nous</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 intro-right-container">
@@ -73,7 +94,7 @@
         <div id="_contact" class="page-third">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-lg-6 contact-left-container">
+                    <div class="contact-left-container">
                         <div class="contact-left-c">
                             <div class="contact-left-title-container">
                                 <span class="contact-left-title">Prenez contact !</span>
@@ -83,25 +104,21 @@
                                     Notre prise de d'information est totalement sécurisé. Nous ne transmetterons jamais aucune information tel que votre email ou votre nom. Cela est simplement transmit au responsable de votre dossier a des fin de personnalisation de retour
                                 </span>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 contact-right-container">
-                        <div class="contact-right-c">
                             <div class="form_container">
                                 <form action="mailto:flylens-contact@gmail.com" method="post" enctype="text/plain">
                                     <span class="form-txt">
-                                        Name:
+                                        Name
                                     </span>    
-                                    <input class="form-control nameemail_input" type="text" name="name"><br>
+                                    <input class="form-control nameemail_input" type="text" name="name" placeholder="Thomas Jeferson"><br>
                                     <span class="form-txt">
-                                        Email:
+                                        Email
                                     </span> 
-                                    <input class="form-control nameemail_input" type="email" name="mail"><br>
+                                    <input class="form-control nameemail_input" type="email" name="mail" placeholder="thoms.jerferson@exemple.com"><br>
                                     <span class="form-txt">
-                                        Your comment:
+                                        Your comment
                                     </span> 
-                                    <input class="form-control comment_input" type="text" name="comment"><br><br>
-                                    <input class="btn btn-primary" type="submit" value="Send">
+                                    <textarea class="form-control comment_input" type="text" rows="5" name="comment" placeholder="Your comment"></textarea><br><br>
+                                    <input class="btn-send" type="submit" value="Send">
                                 </form>
                             </div>
                         </div>

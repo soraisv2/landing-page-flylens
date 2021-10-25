@@ -96,6 +96,31 @@ a {
     margin: 50px;
 }
 
+.intro-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.betatest-btn {
+    border: 2px solid #6bd181;
+    background-color: #6bd181;
+    font-weight: bold;
+    color: white;
+}.betatest-btn:hover {
+    background-color: white;
+    color: #6bd181;
+    transition-duration: 0.4s;
+}
+
+.contact-btn {
+    border: 2px solid #3162cc;
+    font-weight: bold;
+}
+
 .btn-discover-container {
     width: 100%;
     display: flex;
@@ -149,7 +174,7 @@ a {
 /*  */
 
 .page-third {
-    height: 100vh;
+    height: 100%;
     background-color: #eeeeee;
 }
 
@@ -157,8 +182,8 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    padding: 0px 50px;
+    height: 100%;
+    padding: 50px 20%;
     background-image: url("https://img2.wallspic.com/originals/7/3/2/1/5/151237-green-crop-dibond-poster-grass_family-1920x1080.jpg");
     background-repeat: no-repeat;
     text-align: center;
@@ -166,19 +191,15 @@ a {
 }
 
 .contact-left-c {
-    height: 300px;
+    height: 100%;
     width: 100%;
     border-radius: 20px;
-    background-color: #80808038;
-}
-.contact-right-c {
-    height: 60vh;
-    width: 100%;
-    border-radius: 20px;
+    background-color: #00000060;
+    padding: 10px 20%;
 }
 
 .contact-left-title-container {
-    margin: 30px;
+    margin: 0px;
 }
 
 .contact-left-title {
@@ -199,39 +220,35 @@ a {
 }
 
 .form_container {
-    padding: 100px 20px;
-}
-
-.contact-right-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    padding: 0px 150px;
-}
-
-.contact-right-title {
-    font-size: 10%;
-    color: white;
+    padding: 20px 20px;
 }
 
 .nameemail_input {
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     padding: 10px;
     width: 100%;
 }
 
 .comment_input {
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     padding: 10px;
     width: 100%;
 }
 
 .form-txt {
-    color: #9c9c9c;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 22px;
     font-weight: bold;
     margin: 10px;
+    float: left;
+}
+
+.btn-send {
+    padding: 18px 40px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #00000060;
 }

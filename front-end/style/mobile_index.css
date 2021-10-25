@@ -15,8 +15,7 @@ a {
 /* INTRO PAGE */
 
 .page-intro {
-    height: 65vh;
-    margin-top: -20%;
+    height: 100vh;
     background-color: rgb(255, 255, 255);
 }
 
@@ -59,7 +58,6 @@ a {
 
 .btn-discover-container {
     width: 100%;
-    margin-top: -30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,23 +100,24 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
+    padding: 20px 20px;
     background-image: url("https://img2.wallspic.com/originals/7/3/2/1/5/151237-green-crop-dibond-poster-grass_family-1920x1080.jpg");
     background-repeat: no-repeat;
     text-align: center;
+    color: white;
 }
 
 .contact-left-c {
-    margin-top: 140%;
-    height: 45%;
+    height: 100%;
     width: 100%;
-    border-radius: 20px;
-    background-color: #80808056;
+    border-radius: 50px;
+    background-color: #00000060;
+    padding: 10px 10px;
 }
-.contact-right-c {
-    height: 60vh;
-    width: 100%;
-    border-radius: 20px;
+
+.contact-left-title-container {
+    margin: 0px;
 }
 
 .contact-left-title {
@@ -134,42 +133,40 @@ a {
 
 .contact-left-text {
     letter-spacing: 1px;
-    font-size: 50px;
+    color: white;
+    font-size: 30px;
 }
 
 .form_container {
-    padding: 100px 20px;
-}
-
-.contact-right-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50%;
-    padding: 0px 50px;
+    padding: 20px 20px;
 }
 
 .nameemail_input {
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
     padding: 10px;
     width: 100%;
-    height: 75px;
-    font-size: 40px;
 }
 
 .comment_input {
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
     padding: 10px;
     width: 100%;
-    height: 75px;
-    font-size: 40px;
 }
 
 .form-txt {
-    color: #9c9c9c;
-    font-size: 50px;
+    color: #ffffff;
+    font-size: 22px;
     font-weight: bold;
     margin: 10px;
+    float: left;
+}
+
+.btn-send {
+    padding: 18px 40px;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #00000060;
 }

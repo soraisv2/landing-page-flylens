@@ -5,4 +5,4 @@ Poc-Moonshot
 
 ## Info
 
-This is a model of our **Moonshot** project called "*Dr-healer*". Moonshot end of pool project from Epitech 
+This is a model of our **Moonshot** project called "*FlyLens*". Moonshot end of pool project from Epitech 

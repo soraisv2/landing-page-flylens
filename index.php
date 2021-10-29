@@ -4,11 +4,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="front-end/style/style-index.css">
     <link rel="stylesheet" media="handheld, only screen and (max-device-width: 480px)" type="text/css" href="front-end/style/mobile_index.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>FlyLens</title>
 </header>
 <body>
     <script src="motion.js">
             responsiveChecker();
+    </script>
+    <script>
+        var verifyCallback = function(response) {
+            alert(response);
+        };
     </script>
     <div id="_BTNUP" class="btn-up-container">
         <a href="#_home"><div id="_btn_pageup" class="btn-pageup" 
@@ -147,15 +153,20 @@
                                 <span class="form-txt">
                                     Name
                                 </span>
-                                <input class="form-control nameemail_input" type="text" name="name" placeholder="Thomas Jeferson"><br>
+                                <input class="form-control nameemail_input" type="text" name="name" placeholder="Thomas Jeferson">
                                 <span class="form-txt">
                                     Email
                                 </span>
-                                <input class="form-control nameemail_input" type="email" name="mail" placeholder="thoms.jerferson@exemple.com"><br>
+                                <input class="form-control nameemail_input" type="email" name="mail" placeholder="thoms.jerferson@exemple.com">
                                 <span class="form-txt">
                                     Your comment
                                 </span>
                                 <textarea class="form-control comment_input" type="text" rows="5" name="comment" placeholder="Your comment"></textarea><br><br>
+                                <form action="?" method="POST">
+                                    <div class="g-recaptcha" data-sitekey="6LfQhQEdAAAAAHjizBolQSHU60Cg3viTel0HQ_7t"></div>
+                                    <br/>
+                                    <input type="submit" value="Submit">
+                                </form>
                                 <input class="btn-send" type="submit" value="Send">
                             </form>
                         </div>

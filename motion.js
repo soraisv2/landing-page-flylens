@@ -15,6 +15,14 @@ window.onload = () => {
     }
 }
 
+window.onscroll = () => {
+    if (scrollY > 0)
+        document.getElementById("_BTNUP").style.display = "flex";
+    else {
+        document.getElementById("_BTNUP").style.display = "none";
+    }
+}
+
 function page_switcher(numOfPage)
 {
     var k = document.querySelectorAll(".adm-pages").length;
@@ -25,4 +33,15 @@ function page_switcher(numOfPage)
             document.getElementById(`PAGE${i}`).style.display = "none";
     }
     console.log("page: " + numOfPage);
+}
+
+function responsiveChecker()
+{
+    console.log(screen.width);
+}   
+
+function classSwitcher(id1, addClass, removeClass)
+{
+    document.getElementById(id1).classList.add(addClass);
+    document.getElementById(id1).classList.remove(removeClass);
 }

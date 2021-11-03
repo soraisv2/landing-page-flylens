@@ -11,10 +11,8 @@
     <script src="motion.js">
             responsiveChecker();
     </script>
+        <script type="text/javascript"src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
     <script>
-        var verifyCallback = function(response) {
-            alert(response);
-        };
     </script>
     <div id="_BTNUP" class="btn-up-container">
         <a href="#_home"><div id="_btn_pageup" class="btn-pageup" 
@@ -29,7 +27,10 @@
         <div id="_home" class="page-intro">
             <div class="container-fluid to_hide_on_mobile">
                 <div class="row nav-container">
-                    <div class="col-2 nav-btn">
+                    <div class="col-1 nav-btn">
+                        
+                    </div>
+                    <div class="col-1 nav-btn">
                         
                     </div>
                     <a class="col-1" href=".">
@@ -50,7 +51,7 @@
                     </a>
                     <a class="col-1" href="#_project">
                         <div class="nav-btn">
-                            Project
+                            Projet
                         </div>
                     </a>
                     <a class="col-1" href="#">
@@ -68,11 +69,11 @@
                             Connection
                         </div>
                     </a>
-                    <div class="col-1 nav-btn">
+                    <div class="col-1 nav-btn" id="google_translate_element">
                         
                     </div>
                     <div class="col-1 nav-btn">
-                        <a href="#_contact"></a>
+                        <a href="#_contact">EN</a>
                     </div>
                 </div>
             </div>
@@ -81,7 +82,7 @@
                     <div class="col-12 col-lg-6 intro-left-container">
                         <div class="intro-text">
                             <span class="intro-title">Vos cultures <span style="color: #6bd181;">analysées</span> en permanence</span><br>
-                            <span class="intro-subtitle">Votre drone intelligent et autonome qui vous fourni en temps reél toutes les données de santés de vos cultures.</span><br>
+                            <span class="intro-subtitle">Votre drone intelligent et autonome qui vous fournit en temps réel toutes les données de santé de vos cultures.</span><br>
                             <div class="row">
                                 <div class="col-6">
                                     <a href="#_contact">
@@ -129,7 +130,7 @@
                             <span class="project-title">FlyLens, Le future de l'agriculture</span><br>
                             <div style="text-align: justify;">
                                 <span class="project-text">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    Dr-Healer est un drone de surveillance des cultures entièrement automatisé. Il se charge lui-même, vous transmet les données sur la santé des cultures en temps réel, et sait comment lacer ses chaussures.Il a une autonomie de 1 heure, ce qui lui permet de couvrir une douzaine d'hectares à pleine batterie. Equipé d'une simple caméra, il pourra vous donner en temps réel toutes les statistiques dont vous avez besoin. Température du sol, hydrométrie approximative, aspect visuel de chaque plan.
                                 </span>
                             </div>
                         </div>
@@ -165,7 +166,6 @@
                                 <form action="?" method="POST">
                                     <div class="g-recaptcha" data-sitekey="6LfQhQEdAAAAAHjizBolQSHU60Cg3viTel0HQ_7t"></div>
                                     <br/>
-                                    <input type="submit" value="Submit">
                                 </form>
                                 <input class="btn-send" type="submit" value="Send">
                             </form>

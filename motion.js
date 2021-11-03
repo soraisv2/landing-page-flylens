@@ -45,3 +45,11 @@ function classSwitcher(id1, addClass, removeClass)
     document.getElementById(id1).classList.add(addClass);
     document.getElementById(id1).classList.remove(removeClass);
 }
+
+var verifyCallback = function(response) {
+    alert(response);
+};
+function googleTranslateElementInit() { 
+    new google.translate.TranslateElement({pageLanguage: 'en'},
+    'google_translate_element'); 
+} 
